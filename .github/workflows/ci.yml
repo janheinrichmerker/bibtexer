@@ -19,7 +19,7 @@ jobs:
     - name: "🧰 Install Protoc"
       run: sudo apt install protobuf-compiler
     - name: "🧰 Install Python"
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python }}
         cache: pip
@@ -31,7 +31,7 @@ jobs:
     - name: "🧪 Check package bundles"
       run: twine check dist/*
     - name: "📤 Upload Python wheels"
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: matrix.python == '3.10'
       with:
         name: wheels
@@ -51,7 +51,7 @@ jobs:
     - name: "🧰 Install Protoc"
       run: sudo apt install protobuf-compiler
     - name: "🧰 Install Python"
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python }}
         cache: pip
@@ -75,7 +75,7 @@ jobs:
     - name: "🧰 Install Protoc"
       run: sudo apt install protobuf-compiler
     - name: "🧰 Install Python"
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python }}
         cache: pip
@@ -99,7 +99,7 @@ jobs:
     - name: "🧰 Install Protoc"
       run: sudo apt install protobuf-compiler
     - name: "🧰 Install Python"
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python }}
         cache: pip
@@ -123,7 +123,7 @@ jobs:
     - name: "🧰 Install Protoc"
       run: sudo apt install protobuf-compiler
     - name: "🧰 Install Python"
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python }}
         cache: pip
@@ -133,7 +133,7 @@ jobs:
     - name: "🧪 Test Python code"
       run: pytest --cov --cov-report=xml archive_query_log
     - name: "📤 Upload coverage to Codecov"
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
       if: matrix.python == '3.10'
       with:
         fail_ci_if_error: true
@@ -149,7 +149,7 @@ jobs:
     - name: "🧰 Set up Docker Buildx"
       uses: docker/setup-buildx-action@v2
     - name: "🏗️ Build Docker image"
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: .
         push: false
@@ -204,12 +204,12 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: "ℹ️ Extract image metadata"
       id: meta
-      uses: docker/metadata-action@v4
+      uses: docker/metadata-action@v5
       with:
         images: |
           ghcr.io/${{ github.repository }}
     - name: "🚀 Build and push image"
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: .
         push: true
