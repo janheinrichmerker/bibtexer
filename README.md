@@ -44,7 +44,7 @@ pipx install bibtexer
 If you do not want to use pipx, you can also install this tool with standard pip:
 
 ```shell
-pip install --user archive-query-log
+pip install --user bibtexer
 ```
 
 ## Usage
