@@ -1,0 +1,82 @@
+[project]
+name = "bibtexer"
+authors = [
+    { name = "Jan Heinrich Reimer", email = "heinrich.reimer@uni-jena.de" },
+]
+description = "An opinionated BibTeX file cleaner for computer science."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "click~=8.1",
+    "importlib-metadata~=6.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+tests = [
+    "approvaltests~=10.0",
+    "bandit[toml]~=1.7",
+    "mypy~=1.5",
+    "pytest~=8.0",
+    "pytest-cov~=4.0",
+    "ruff~=0.2.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/heinrichreimer/bibtexer"
+"Bug Tracker" = "https://github.com/heinrichreimer/bibtexer/issues"
+
+[project.scripts]
+bibtexer = "bibtexer.cli:cli"
+
+[build-system]
+requires = ["setuptools>=50", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+namespaces = false
+
+[tool.setuptools.package-data]
+mypkg = ["*.txt", "*.md", "*.rst"]
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+exclude = [
+    "build",
+    "venv",
+    "scripts",
+]
+
+[tool.mypy]
+ignore_missing_imports = true
+exclude = [
+    "build",
+    "venv",
+    "scripts",
+]
+
+[tool.bandit]
+exclude_dirs = [
+    "build",
+    "venv",
+    "scripts",
+]
+
+[tool.bandit.assert_used]
+skips = ["**/test_*.py"]
+
+[tool.pytest.ini_options]
+log_cli = "True"
