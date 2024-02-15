@@ -17,6 +17,8 @@ An opinionated BibTeX file cleaner for computer science.
 - Adhere to [natbib](https://ctan.org/pkg/natbib) and [BibLaTeX](https://ctan.org/pkg/biblatex) standards
 - Short identifiers to favor typing efficiency
 - Favor a simple CLI over a fancy GUI
+- BibTeX is the single source of truth
+- Permissive license
 
 ## Conventions
 
@@ -95,6 +97,10 @@ We are happy to help!
 - [bibcleaner](https://github.com/sirrice/bibcleaner)
 - [bibcure](https://github.com/bibcure/bibcure)
 - [tidybib](https://github.com/ntessore/tidybib)
+- [bibtex-dblp](https://github.com/volkm/bibtex-dblp)
+- [imbibed](https://github.com/cassiersg/imbibed)
+- [regenbib](https://github.com/joachimneu/regenbib)
+- [autobiber](https://github.com/Yeba/autobiber)
 
 ## License
 
