@@ -136,7 +136,6 @@ jobs:
       uses: codecov/codecov-action@v4
       if: matrix.python == '3.10'
       with:
-        fail_ci_if_error: true
         token: ${{ secrets.CODECOV_TOKEN }}
   docker-build:
     name: "🏗️ Build Docker image"
