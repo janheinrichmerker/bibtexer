@@ -9,6 +9,10 @@
 
 An opinionated BibTeX file cleaner for computer science.
 
+https://bibtexparser.readthedocs.io/en/main/quickstart.html
+https://habanero.readthedocs.io/en/latest/modules/crossref.html
+https://github.com/greenBene/dblpy
+
 ## Goals
 
 - BibTeX files as input and output
