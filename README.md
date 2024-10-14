@@ -1,5 +1,5 @@
 [![CI status](https://img.shields.io/github/actions/workflow/status/heinrichreimer/bibtexer/ci.yml?branch=main&style=flat-square)](https://github.com/heinrichreimer/bibtexer/actions/workflows/ci.yml)
-[![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat-square)](https://github.com/heinrichreimer/bibtexer/graphs/contributors)  
+[![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat-square)](https://github.com/heinrichreimer/bibtexer/graphs/contributors)
 [![Issues](https://img.shields.io/github/issues/heinrichreimer/bibtexer?style=flat-square)](https://github.com/heinrichreimer/bibtexer/issues)
 [![Pull requests](https://img.shields.io/github/issues-pr/heinrichreimer/bibtexer?style=flat-square)](https://github.com/heinrichreimer/bibtexer/pulls)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/heinrichreimer/bibtexer?style=flat-square)](https://github.com/heinrichreimer/bibtexer/commits)
@@ -35,6 +35,11 @@ https://github.com/greenBene/dblpy
   - `YYYY` is the four-digit year of publication
   - `[x]` is an optional one-letter suffix (e.g., `a`, `b`, etc.) in case the same first author has published more than one paper in a year.
 - arXiv papers are `@misc` entries
+- Titles:
+  - Remove trailing dot
+  - Title case
+  - Put entity names and abbreviations in {} (Wikidata?)
+
 
 ## Installation
 
@@ -90,7 +95,7 @@ If you have found a bug in this tool or feel like some feature is missing, pleas
 
 If you are unsure about anything, post an [issue](https://github.com/heinrichreimer/bibtexer/issues/new) or contact us:
 
-- [heinrich.reimer@uni-jena.de](mailto:heinrich.reimer@uni-jena.de)
+- [heinrich.merker@uni-jena.de](mailto:heinrich.merker@uni-jena.de)
 
 We are happy to help!
 

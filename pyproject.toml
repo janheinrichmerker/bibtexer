@@ -1,7 +1,7 @@
 [project]
 name = "bibtexer"
 authors = [
-    { name = "Jan Heinrich Reimer", email = "heinrich.reimer@uni-jena.de" },
+    { name = "Jan Heinrich Merker", email = "heinrich.merker@uni-jena.de" },
 ]
 description = "An opinionated BibTeX file cleaner for computer science."
 readme = "README.md"
@@ -37,8 +37,8 @@ tests = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/heinrichreimer/bibtexer"
-"Bug Tracker" = "https://github.com/heinrichreimer/bibtexer/issues"
+"Homepage" = "https://github.com/janheinrichmerker/bibtexer"
+"Bug Tracker" = "https://github.com/janheinrichmerker/bibtexer/issues"
 
 [project.scripts]
 bibtexer = "bibtexer.cli:cli"
