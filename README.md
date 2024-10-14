@@ -1,9 +1,9 @@
-[![CI status](https://img.shields.io/github/actions/workflow/status/heinrichreimer/bibtexer/ci.yml?branch=main&style=flat-square)](https://github.com/heinrichreimer/bibtexer/actions/workflows/ci.yml)
-[![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat-square)](https://github.com/heinrichreimer/bibtexer/graphs/contributors)
-[![Issues](https://img.shields.io/github/issues/heinrichreimer/bibtexer?style=flat-square)](https://github.com/heinrichreimer/bibtexer/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/heinrichreimer/bibtexer?style=flat-square)](https://github.com/heinrichreimer/bibtexer/pulls)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/heinrichreimer/bibtexer?style=flat-square)](https://github.com/heinrichreimer/bibtexer/commits)
-[![License](https://img.shields.io/github/license/heinrichreimer/bibtexer?style=flat-square)](LICENSE)
+[![CI status](https://img.shields.io/github/actions/workflow/status/janheinrichmerker/bibtexer/ci.yml?branch=main&style=flat-square)](https://github.com/janheinrichmerker/bibtexer/actions/workflows/ci.yml)
+[![Maintenance](https://img.shields.io/maintenance/yes/2024?style=flat-square)](https://github.com/janheinrichmerker/bibtexer/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/janheinrichmerker/bibtexer?style=flat-square)](https://github.com/janheinrichmerker/bibtexer/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/janheinrichmerker/bibtexer?style=flat-square)](https://github.com/janheinrichmerker/bibtexer/pulls)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/janheinrichmerker/bibtexer?style=flat-square)](https://github.com/janheinrichmerker/bibtexer/commits)
+[![License](https://img.shields.io/github/license/janheinrichmerker/bibtexer?style=flat-square)](LICENSE)
 
 # 📚 bibtexer
 
@@ -91,9 +91,9 @@ pytest .                       # Unit tests
 
 ## Contribute
 
-If you have found a bug in this tool or feel like some feature is missing, please create an [issue](https://github.com/heinrichreimer/bibtexer/issues). We also gratefully accept [pull requests](https://github.com/heinrichreimer/bibtexer/pulls)!
+If you have found a bug in this tool or feel like some feature is missing, please create an [issue](https://github.com/janheinrichmerker/bibtexer/issues). We also gratefully accept [pull requests](https://github.com/janheinrichmerker/bibtexer/pulls)!
 
-If you are unsure about anything, post an [issue](https://github.com/heinrichreimer/bibtexer/issues/new) or contact us:
+If you are unsure about anything, post an [issue](https://github.com/janheinrichmerker/bibtexer/issues/new) or contact us:
 
 - [heinrich.merker@uni-jena.de](mailto:heinrich.merker@uni-jena.de)
 
