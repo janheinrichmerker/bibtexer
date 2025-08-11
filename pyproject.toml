@@ -32,7 +32,7 @@ tests = [
     "mypy~=1.5",
     "pytest~=8.0",
     "pytest-cov~=6.0",
-    "ruff~=0.11.0",
+    "ruff~=0.12.8",
     "types-tqdm~=4.66",
 ]
 
